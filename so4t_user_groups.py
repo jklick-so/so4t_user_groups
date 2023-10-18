@@ -11,7 +11,8 @@ import csv
 from so4t_api_v2 import V2Client
 from so4t_api_v3 import V3Client
 
-NEW_LINE = "\n"
+NEW_LINE = "\n" # Python f-strings do not inherently support line breaks via `\n`
+
 
 def main():
 
