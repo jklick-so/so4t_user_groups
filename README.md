@@ -17,6 +17,7 @@ An API script for Stack Overflow for Teams that adds users to user groups based 
 * Install the dependencies: `pip3 install -r requirements.txt`
 
 **API Authentication**
+
 You'll need an API key and API token. 
 
 For Enteprise, documentation for creating the key and token can be found within your instance, at this url: `https://[your_site]/api/docs/authentication`
@@ -29,6 +30,7 @@ Creating an access token for Enterpise can sometimes be tricky for people who ha
 * In the URL of that page, you'll find your access token. Example: `https://YOUR.SO-ENTERPRISE.URL/oauth/login_success#access_token=YOUR_TOKEN`
 
 **Populate the CSV template**
+
 In the [Templates folder](https://github.com/jklick-so/so4t_user_groups/tree/main/Templates), you'll find a CSV file called `users.csv`. This is the file you'll use to add users to user groups. 
 
 There are two columns in the CSV:
