@@ -29,7 +29,7 @@ Creating an access token for Enterpise can sometimes be tricky for people who ha
 * In the URL of that page, you'll find your access token. Example: `https://YOUR.SO-ENTERPRISE.URL/oauth/login_success#access_token=YOUR_TOKEN`
 
 **Populate the CSV template**
-In the [Templates folder](https://github.com/jklick-so/so4t_user_groups/tree/main/Templates]), you'll find a CSV file called `users.csv`. This is the file you'll use to add users to user groups. 
+In the [Templates folder](https://github.com/jklick-so/so4t_user_groups/tree/main/Templates), you'll find a CSV file called `users.csv`. This is the file you'll use to add users to user groups. 
 
 There are two columns in the CSV:
 * `user_email_or_id` - the unique identifier for the user that you want to assign to a user group. You can use either the user's email addrees or Stack Overflow for Teams user ID. If neither the email address nor the user ID exist in your Stack Overflow for Teams database, the script will skip that row and notify you via the terminal window.
