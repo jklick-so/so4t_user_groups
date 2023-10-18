@@ -37,6 +37,8 @@ There are two columns in the CSV:
 * `user_email_or_id` - the unique identifier for the user that you want to assign to a user group. You can use either the user's email addrees or Stack Overflow for Teams user ID. If neither the email address nor the user ID exist in your Stack Overflow for Teams database, the script will skip that row and notify you via the terminal window.
 * `group_name_or_id` - the unique identifier for the user group that you want to assign to the user. You can use either a group name or group ID. If you use a name that doesn't exist, the script will create a new user group with that name.
 
+Only a single user and group can be added per line. If you'd like to add multiple users to a single group, you'll need to create a separate line for each user. Likewise, if you'd like to add a single user to multiple groups, you'll need to create a separate line for each group.
+
 ## Usage
 
 In a terminal window, navigate to the directory where you unpacked the script. 
