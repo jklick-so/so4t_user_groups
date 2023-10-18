@@ -20,9 +20,9 @@ An API script for Stack Overflow for Teams that adds users to user groups based 
 
 You'll need an API key and API token. 
 
-For Enteprise, documentation for creating the key and token can be found within your instance, at this url: `https://[your_site]/api/docs/authentication`
+For Stack Overflow Enteprise, documentation for creating the key and token can be found within your instance, at this url: `https://[your_site]/api/docs/authentication`
 
-Creating an access token for Enterpise can sometimes be tricky for people who haven't done it before. Here are some (hopefully) straightforward instructions:
+Creating an access token for Stack Overflow Enterpise can sometimes be tricky for people who haven't done it before. Here are some (hopefully) straightforward instructions:
 * Go to the page where you created your API key. Take note of the "Client ID" associated with your API key.
 * Go to the following URL, replacing the base URL, the `client_id`, and base URL of the `redirect_uri` with your own: `https://YOUR.SO-ENTERPRISE.URL/oauth/dialog?client_id=111&redirect_uri=https://YOUR.SO-ENTERPRISE.URL/oauth/login_success`
 
