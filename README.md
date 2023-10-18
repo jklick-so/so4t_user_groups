@@ -29,7 +29,7 @@ Creating an access token for Enterpise can sometimes be tricky for people who ha
 * In the URL of that page, you'll find your access token. Example: `https://YOUR.SO-ENTERPRISE.URL/oauth/login_success#access_token=YOUR_TOKEN`
 
 **Populate the CSV template**
-In the (Templates folder)[https://github.com/jklick-so/so4t_user_groups/tree/main/Templates], you'll find a CSV file called `users.csv`. This is the file you'll use to add users to user groups. 
+In the [Templates folder](https://github.com/jklick-so/so4t_user_groups/tree/main/Templates]), you'll find a CSV file called `users.csv`. This is the file you'll use to add users to user groups. 
 
 There are two columns in the CSV:
 * `user_email_or_id` - the unique identifier for the user that you want to assign to a user group. You can use either the user's email addrees or Stack Overflow for Teams user ID. If neither the email address nor the user ID exist in your Stack Overflow for Teams database, the script will skip that row and notify you via the terminal window.
@@ -39,6 +39,7 @@ There are two columns in the CSV:
 
 In a terminal window, navigate to the directory where you unpacked the script. 
 Run the script using the following format, replacing the URL, token, and/or key with your own:
+
 `python3 so4t_user_groups.py --url "https://SUBDOMAIN.stackenterprise.co" --key "YOUR_KEY" --token "YOUR_TOKEN" --csv "PATH_TO_CSV"`
 
 The script can take a minute or two to run, particularly as it gathers data via the API. As it runs, it will continue to update the terminal window with the tasks it's performing. When the script completes, it will return you to a command line prompt.
