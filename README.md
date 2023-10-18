@@ -2,7 +2,7 @@
 An API script for Stack Overflow for Teams that adds users to user groups based on the contents of a CSV file.
 
 ## Requirements
-* A Stack Overflow Enterprise (no support for Business tier yet)
+* An instance of Stack Overflow Enterprise (no support for Business tier yet)
 * Python 3.7 or higher ([download](https://www.python.org/downloads/))
 * Operating system: Linux, MacOS, or Windows
 
