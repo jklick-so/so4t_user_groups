@@ -51,4 +51,4 @@ Disclaimer: the creator of this project works at Stack Overflow, but it is a lab
 
 If you run into issues using the script, please [open an issue](https://github.com/jklick-so/so4t_user_groups/issues). You are also welcome to edit the script to suit your needs, steal the code, or do whatever you want with it. It is provided as-is, with no warranty or guarantee of any kind. If the creator wasn't so lazy, there would likely be an MIT license file included.
 
-All data is handled locally on the device from which the script is run. The script does not transmit data to other parties, such as Stack Overflow. All of the API calls performed are read only, so there is no risk of editing or adding content on your Stack Overflow for Teams instance.
+All data is handled locally on the device from which the script is run. The script does not transmit data to other parties, such as Stack Overflow.
